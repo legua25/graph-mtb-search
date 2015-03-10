@@ -1,0 +1,3 @@
+test_1000 { description: 'A test graph of 1,000 nodes with between 5 and 900 connections each.' }
+{% for n in g %}
+{{ n.to_template_string() }}{% endfor %}
