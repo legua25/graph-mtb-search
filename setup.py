@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 from distutils.core import setup
 
 setup(
@@ -11,6 +10,6 @@ setup(
 
     keywords = 'example search uninformed ai artificial intelligence graph concurrent',
     url = 'https://github.com/legua25/graph-mtb-search',
-    packages = [ 'src', 'src.graph', 'src.graph.navigator' ],
+    packages = [ 'mtb_search', 'mtb_search.graph', 'mtb_search.graph.navigator' ],
     classifiers = [ 'Development Status :: 4 - Beta' ]
 )

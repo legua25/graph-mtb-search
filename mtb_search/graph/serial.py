@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from random import choice, randint, uniform
-from src.graph import Graph
+from mtb_search.graph import Graph
 
 def random_str(length, allowed = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'):
 	return str(''.join([ choice(allowed) for _ in range(length) ]))

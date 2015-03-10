@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from src.graph.base import BaseGraph, GraphNode
+from mtb_search.graph.base import BaseGraph, GraphNode
 
 class Path(object):
 
@@ -37,7 +37,7 @@ class Path(object):
 	def __str__(self):
 
 		if self._parent is not None: return self.id
-		else: return '(%s > %s)' % (self._parent.id, self.id)
+		else: return '(%s > %s)' % (self._parent, self.id)
 	def __repr__(self): return 'Path(id: %s, parent: %s, cost: %.8f)' % (self.id, self._parent, self._cost)
 
 NOWHERE = Path(GraphNode('<nowhere>', None))

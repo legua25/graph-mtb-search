@@ -20,7 +20,11 @@ class BreadthFirstNavigator(Navigator):
 			if n.node is goal:
 
 				if trace: logging.info('Found path to objective "%s" (cost: %.8f)' % (goal.id, float(n.cost)))
-				return [ path for path in reversed(list(n)) ]
+
+				path = [ path for path in reversed(list(n)) ]
+
+				if trace: logging.info('Path information: %s' % path)
+				return path
 			else:
 
 				if trace: logging.info('Visiting node "%s" (parent: "%s", current cost: %.8f)' % (n.id, n.parent, float(n.cost)))
@@ -31,4 +35,5 @@ class BreadthFirstNavigator(Navigator):
 					visited.append(n.node)
 					frontier.extend([ self.path_class(child, parent = n, cost = (float(n.cost) + n.estimate_cost_to(child))) for child in n.list_connections() if child not in visited ])
 
+		if trace: logging.info('No path found to objective "%s"' % goal.id)
 		return NOWHERE

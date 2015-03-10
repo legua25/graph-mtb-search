@@ -57,6 +57,10 @@ class MTBranchingNavigator(Navigator):
 			value = threads.submit(__multi__, self.path_class(start))
 
 			try: value.result(timeout)
-			except TimeoutError: return NOWHERE
+			except TimeoutError:
 
+				if trace: logging.info('No path found to objective "%s"' % goal.id)
+				return NOWHERE
+
+		if trace: logging.info('Path information: %s' % self.result)
 		return self.result
