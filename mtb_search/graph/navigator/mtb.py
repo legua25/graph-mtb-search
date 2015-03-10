@@ -46,11 +46,11 @@ class MTBranchingNavigator(Navigator):
 						if trace: logging.info('%s: Visiting node "%s" (parent: "%s", current cost: %.8f)' % (current_thread().name, n.id, n.parent, float(n.cost)))
 						self.visited.append(n.node)
 
-						# Submit a new job for the thread pool in order to explore children
-						for child in [ _ for _ in n.list_connections() if _ not in self.visited ]:
+					# Submit a new job for the thread pool in order to explore children
+					for child in [ _ for _ in n.list_connections() if _ not in self.visited ]:
 
-							cost = (n.cost + n.estimate_cost_to(child))
-							threads.submit(__multi__, self.path_class(child, parent = n, cost = cost))
+						cost = (n.cost + n.estimate_cost_to(child))
+						threads.submit(__multi__, self.path_class(child, parent = n, cost = cost))
 
 		with threads:
 
@@ -63,4 +63,5 @@ class MTBranchingNavigator(Navigator):
 				return NOWHERE
 
 		if trace: logging.info('Path information: %s' % self.result)
+		print self.result
 		return self.result
