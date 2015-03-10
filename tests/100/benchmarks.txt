@@ -1,0 +1,354 @@
+Searches in graph, by order:
+0: from node "mU" to node "Mw"
+1: from node "gQ" to node "JK"
+2: from node "Vj" to node "bL"
+3: from node "mC" to node "yJ"
+4: from node "cW" to node "Wo"
+5: from node "Uz" to node "Qs"
+6: from node "tk" to node "mQ"
+7: from node "er" to node "wK"
+8: from node "TK" to node "pF"
+9: from node "xA" to node "iE"
+--------------------------------------------------------
+BFS:
+         21017 function calls in 0.008 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       41    0.000    0.000    0.000    0.000 {map}
+
+
+
+         6541 function calls in 0.004 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       22    0.000    0.000    0.000    0.000 {map}
+
+
+
+         45846 function calls in 0.016 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       61    0.000    0.000    0.001    0.000 {map}
+
+
+
+         53939 function calls in 0.018 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       63    0.000    0.000    0.001    0.000 {map}
+
+
+
+         24073 function calls in 0.010 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       42    0.000    0.000    0.000    0.000 {map}
+
+
+
+         7978 function calls in 0.005 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       24    0.000    0.000    0.001    0.000 {map}
+
+
+
+         32720 function calls in 0.013 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       53    0.000    0.000    0.001    0.000 {map}
+
+
+
+         3580 function calls in 0.001 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       14    0.000    0.000    0.000    0.000 {map}
+
+
+
+         25968 function calls in 0.008 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       44    0.000    0.000    0.000    0.000 {map}
+
+
+
+         14490 function calls in 0.006 seconds
+
+   Random listing order was used
+   List reduced from 22 to 1 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       29    0.000    0.000    0.000    0.000 {map}
+
+
+--------------------------------------------------------
+MTBS (4 cores):
+         183 function calls in 0.001 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         183 function calls in 0.004 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.002    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         170 function calls in 0.004 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.003    0.001 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         170 function calls in 0.007 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.005    0.001 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         170 function calls in 0.001 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         183 function calls in 0.002 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.001    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         196 function calls in 0.004 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       11    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.002    0.001 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         170 function calls in 0.004 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.001    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         183 function calls in 0.002 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.001    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         170 function calls in 0.003 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        4    0.000    0.000    0.002    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+--------------------------------------------------------
+MTBS (8 cores):
+         186 function calls in 0.002 seconds
+
+   Random listing order was used
+   List reduced from 64 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         224 function calls in 0.006 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       11    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.004    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         198 function calls in 0.009 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.005    0.001 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         213 function calls in 0.006 seconds
+
+   Random listing order was used
+   List reduced from 64 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.001    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         187 function calls in 0.002 seconds
+
+   Random listing order was used
+   List reduced from 64 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+        9    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        6    0.000    0.000    0.001    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         224 function calls in 0.005 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       11    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.002    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         211 function calls in 0.007 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.004    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         213 function calls in 0.011 seconds
+
+   Random listing order was used
+   List reduced from 64 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         215 function calls in 0.003 seconds
+
+   Random listing order was used
+   List reduced from 64 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       10    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.001    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+
+
+         224 function calls in 0.005 seconds
+
+   Random listing order was used
+   List reduced from 63 to 3 due to restriction <0.05>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/Queue.py:107(put)
+       11    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+        8    0.000    0.000    0.002    0.000 /usr/lib/python2.7/threading.py:911(join)
+
+

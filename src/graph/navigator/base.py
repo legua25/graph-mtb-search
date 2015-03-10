@@ -38,7 +38,7 @@ class Path(object):
 
 		if self._parent is not None: return self.id
 		else: return '(%s > %s)' % (self._parent.id, self.id)
-	def __repr__(self): return 'Path(id: %s, parent: %s, cost: %.8f)' % (self.id, self._parent.id, self._cost)
+	def __repr__(self): return 'Path(id: %s, parent: %s, cost: %.8f)' % (self.id, self._parent, self._cost)
 
 NOWHERE = Path(GraphNode('<nowhere>', None))
 
